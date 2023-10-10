@@ -15,9 +15,17 @@ class MetasploitModule < Msf::Post
         info,
         'Name' => 'Ubuntu Server GameOverlayFS Privsec',
         'Description' => %q{
-          This module will level up shell to root with CVE
+          This module will level up shell to root with 
+          OverlayFS impel in kernel
+          A lot of ubuntu server and desktop are vulnerable.
         },
         'License' => MSF_LICENSE,
+        'References' => [
+          [ 'CVE', '2023-2640' ],
+          [ 'CVE', '2023-32629' ],
+          [ 'URL', 'https://www.reddit.com/r/selfhosted/comments/15ecpck/ubuntu_local_privilege_escalation_cve20232640/' ],
+          [ 'URL', 'https://www.crowdstrike.com/blog/crowdstrike-discovers-new-container-exploit/' ]
+        ],
         'Author' => [
           'Esonhugh'
         ],
