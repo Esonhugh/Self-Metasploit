@@ -5,12 +5,14 @@
 │       └── ./auxiliary/dos/rpc
 │           └── ./auxiliary/dos/rpc/dcerpc_fofa_scan.rb
 ├── ./exploit
+│   ├── ./exploit/linux
+│   │   └── ./exploit/linux/local
+│   │       └── ./exploit/linux/local/gameoverlayfs.rb
 │   └── ./exploit/multi
 │       └── ./exploit/multi/java
 │           └── ./exploit/multi/java/metabase_rce.rb
 └── ./post
     └── ./post/linux
         └── ./post/linux/escalate
-            └── ./post/linux/escalate/gameoverlayfs.rb
 
-10 directories, 5 files
+12 directories, 4 files
