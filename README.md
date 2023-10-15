@@ -6,10 +6,10 @@ Esonhugh self maintained Metasploit modules folder
 
 ```bash
 git clone https://github.com/Esonhugh/Self-Metasploit.git
-echo "loadpath ${PWD}/Self-Metasploit" >> /Users/esonhugh/.msf4/msfconsole.rc
+echo "loadpath ${PWD}/Self-Metasploit" >> $HOME/.msf4/msfconsole.rc
 ```
 
-> put into command loadpath $PWD/Self-Metasploit into /Users/esonhugh/.msf4/msfconsole.rc file
+> put into command loadpath $PWD/Self-Metasploit into $HOME/.msf4/msfconsole.rc file
 > 
 > That will make metasploit auto loading modules from Self-Metasploit folder when msfconsole start without -r options
 >
